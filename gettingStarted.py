@@ -5,15 +5,29 @@
 def welcome_assignment_answers(question):
     #Students do not have to follow the skeleton for this assignment.
     #Another way to implement is using a "case" statements similar to C.
-    if question == "Are encoding and encryption the same? - Yes/No":
-        answer = "The student should type the answer here"
-    elif question == "Is it possible to decrypt a message without a key? - Yes/No":
-        answer = "The student should type the answer here"
+    elif question == "What is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
+        answer = "pcap"
+    if question == "Are encoding and encryption the same?":
+        answer = "No"
+    elif question == "Is it possible to decrypt a message without a key?":
+        answer = "No"
+    elif question == "Is it possible to decode a message without a key?":
+        answer = "Yes"
+    elif question == "Is a hashed message supposed to be un-hashed?":
+        answer = "No"
+    elif question == "What is the SHA256 hashing value of your NYU email and use the answer in your code":
+        answer = "4b415630901cfed3fd4395ea638b898fd5600d46f66765f65db43d13f8b0d884"
+    elif question == "Is MD5 a secured hashing algorithm?":
+        answer = "No"
+    elif question == "What layer of the TCP/IP model does the protocol DNS belong to?":
+        answer = "4"
+    elif question == "What layer of the TCP/IP model does the protocol ICMP belong to?":
+        answer = "1"
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
         ### maybe put something here to flag an issue and catch errors
-        answer = "This is not my beautiful wife! This is not my beautiful car! How did I get here?"
+        answer = "I don't understand your question or don't know the answer"
     return(answer)
 # Complete all the questions.
 
